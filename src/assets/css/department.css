@@ -1,0 +1,40 @@
+.menubar{
+    height: 70px;
+    background-color: #9b32a8;
+    color: #fff;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 20px;
+
+}
+
+.content{
+    height: calc(100vh - 70px);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.btnMain{
+    margin-top: 20px;
+}
+
+.btnMain button{
+    margin: 10px 0px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(0, 132, 255);
+    border: rgb(0, 132, 255);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btnMain button:hover{
+    background-color: rgb(0, 93, 180);
+    border: rgb(0, 93, 180);
+}
